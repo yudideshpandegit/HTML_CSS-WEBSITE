@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    font-family: sans-serif;
+
+}
+
+.nav-class{
+
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+
+.navbar{
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+    outline: none;
+
+}
+
+.navbar a{
+
+    float: right;
+    text-align: left;
+
+}
+
+.nav-item a{
+    
+    color: white !important;
+
+}
+
+.nav-class img{
+
+    height: 40px;
+    padding-left: 20px;
+
+}
+
+.navbar-toggler-icon{
+
+    color: white !important;
+
+}
+
+/*-----------------------------Banner-----------------------------*/
+
+.banner{
+
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+    color: white;
+    padding: 120px 0px;
+
+
+}
+
+/*---------------------------------Services--------------------------*/
+
+.services-title{
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+
+}
+
+.services-title::before{
+
+    content: '';
+    width: 50px;
+    height: 10px;
+    background-color: teal;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(60px);
+
+
+}
+
+
+.services-title::after{
+
+    content: '';
+    width: 200px;
+    height: 5px;
+    background-color: teal;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(5px);
+
+
+}
+
+.services{
+
+    margin-top: 100px;
+    
+
+}
+
+.services-content{
+
+    margin-top: 100px;
+    margin-left: 30px;
+
+}
+
+.services-head{
+
+    margin-top: 50px;
+    margin-left: 80px;
+
+}
+
+
+.services img{
+
+    width: 100px;
+    height: 100px;
+    margin-left: 90px;
+
+}
+
+
+/*-------------------------------Comments---------------------------------*/
+
+
+.comments{
+
+    margin-top: 200px;
+
+}
+
+
+.comments-title{
+
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.comments-title::before{
+
+    content: '';
+    width: 400px;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: teal;
+    display: block;
+    transform: translateY(60px);
+
+}
+
+
+.comments-title::after{
+
+    content: '';
+    width: 100px;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: teal;
+    display: block;
+    margin-top: 5px;
+}
+
+.comments-content{
+
+    margin-top: 70px;
+
+}
+
+.comments-content ul{
+
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+
+.comments-content li{
+
+    margin: 10px 0px;
+
+}
+
+.comments-content img{
+
+    margin-left: 100px;
+    width: 300px;
+    height: 300px;
+ 
+}
+
+/*-----------------------------------Review----------------------------------------*/
+
+.reviews-title{
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+
+}
+
+.reviews-title::before{
+
+    content: '';
+    width: 470px;
+    height: 5px;
+    background-color: teal;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(60px);    
+
+}
+
+.reviews-title::after{
+
+    content: '';
+    width: 100px;
+    height: 10px;
+    background-color: teal;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5px;
+
+}
+
+.reviews-content{
+
+    margin-top: 100px;
+    width: 80%;
+    border-left: 4px solid teal;
+
+}
+
+
+.reviews-content p{
+
+    width: 60%;
+    float: left;
+    border-left: 5px solid teal;
+    padding-left: 5px;
+}
+
+
+
+
+.reviews-content img{
+
+    width:30%;
+    height: 100px;
+    float: right;
+    border-radius: 60px;
+
+
+    
+}
+
+
+/*------------------------------Footer----------------------------*/
+
+
+
+.footer{
+
+    width: 100%;
+    background-color: darkslategrey;
+    color: white;
+
+}
+
+
+.sharelist ul{
+
+    margin-bottom:0px;
+
+}
+
+
+.sharelist li{
+
+    display:inline;
+    margin-left:10px;
+    color: white;
+
+
+}
+
+.sharelist a{
+
+    color: white;
+
+}
+
+
+.footer input{
+
+    width: 50%;
+
+}
+
+.footer-data{
+
+    margin-top: 50px !important;
+
+}
